@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{ scroll-behavior: smooth;}
+
+body
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 5% 0 3% 5%;
+
+}
+header nav ul li a
+{
+    color: #000;
+    padding: 8px 15px;
+}
+header nav ul a:hover,.active
+{
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50px;
+
+}
+#main-part h1
+{
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 15%;
+    /* transform: translateY(255%); */
+}
+#main-part p.small-pre
+{
+
+    margin: -2% 0 0 3%;
+    /* transform: translate(5% , 130%); */
+    white-space: pre-line;
+    color: #738191;
+}
+#main-part button
+{
+    margin-top: 2%;
+    /* transform: translate(5% , 320%); */
+    width: 15%;
+    height: 10%;
+    margin-left: 1.5%;
+    font-size: 18px;
+    border: 1.5px solid #007bff;
+}
+#main-part button#btn-Discover:hover
+{
+    background: none;
+    color: #007bff;
+}
+#main-part button#btn-Contact
+{ border: none; }
+
+.img-responsive
+{
+    max-width: 60%;
+    float: right;
+    margin: -35% -10% 0 0;
+}
+
+#clients-part{
+    background-color: #ebebeb;
+    margin-bottom: 2%;
+    padding: 2%;
+
+}
+
+#clients-part h1{
+    font-size: 35px;
+    color: #000;
+    text-transform: capitalize;
+}
+#clients-part p {  color: #696363; }
+
+#clients-container 
+{
+    float: right;
+    margin: -8% 0 0 0%;
+}
+#clients-container img.clients-pic
+{
+    margin-left: 2%;
+    max-width: 20%;
+}
+#project-part h1
+{
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    color: #000;
+}
+#project-1
+{
+    width: 25%;
+    background: #f7f5f5;
+    margin: 4%;
+    padding: 2%;
+    display: inline-block;
+}
+#project-1 h2
+{
+    text-align: center;
+    font-size: 25px;
+    color: #ff2600;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#project-1 ul
+{
+    list-style-position: inside;
+    list-style-type: none;
+}
+#project-1 ul li
+{
+    margin: 10%;
+    font-size: 20px;
+    color: #000;
+}
+#project-1 ul li i
+{
+    font-size: 15px;
+    color: #ff2600;
+
+    margin-right: 5%;
+}
+#project-1 p{
+    margin-top: 10%;
+}
+
+/* input[type="datetime-local"]
+{
+    color: rgb(255, 255, 255);
+    
+    color-scheme: dark;
+    
+    margin: 5%;
+    background-color: #007bff;
+} */
+/* ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+} */
+
+/* ::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+  } */
+#color-box {position: relative;}
+#color-box #blue-box
+{
+    width: 50%;
+    height: 50%;
+    background-color: #007bff;
+    margin: 2%;
+
+}
+#color-box .employee-img
+{
+    max-width: 150%;
+    margin: 5% 5% 2% 5%;
+    position: relative;
+        top: 50px;
+}
+#color-box div.transperant-box
+{
+    width: 100%;
+    height: 57%;
+    /* background-color: #ffffff10;
+    box-shadow: 0px 0px 30px #ddd;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); */
+    background-color: #f7f5f5b7;
+    position: absolute;
+        bottom: -50px;
+        right: -300px;
+    margin-bottom: 3%;
+    border-top: 1px solid #62adfd;
+    border-right: 1px solid #62adfd;
+
+}
+#color-box div.transperant-box h2
+{
+    text-align: center;
+    color: #000;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 5% 5% 2% 5%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#color-box div.transperant-box .h-line
+{
+    width: 50%;
+    height: 1%;
+    background-color: #cecece;
+    margin: 2% 2% 0 20%;
+}
+#color-box div.transperant-box p
+{
+    color: #000;
+    font-size: 35px;
+    padding: 5% 10% 0 10%;
+}
+#color-box div.transperant-box a i
+{
+    float: right;
+    color: #42474d;
+    padding: 3%;
+    background-color: #f4f4f5;
+    box-shadow: 0px 0px 10px #007bff3a;
+    border-radius: 100%;
+    font-size: 30px;
+    margin: 2% 10% 2% 0;
+}
+#color-box div.transperant-box a i:hover
+{
+    background-color: #007bff;
+    color: #fffefe;
+    box-shadow: 0px 0px 10px #007bff3a;
+}
+#team
+{ 
+    overflow: hidden;
+    margin-top: 5%; 
+    padding: 5%;
+    background-color: #f1f1f1;
+
+}
+#team div.employee-box
+{
+    box-shadow: 0px 0px 20px #cecece;
+    background-color: #fff;
+    display: inline-block;
+    width: 20%;
+    max-height: 100%;
+    margin: 2%;
+}
+#team div.employee-box h4 ,div.employee-box h6 
+{
+ 
+    text-align: center;
+    padding: 5%;
+    color: #ff2600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#team div.employee-box p
+{
+    text-align: center;
+    font-size: 16px;
+    padding: 10%;
+
+}
+div.employee-box a i
+{
+    color: #919090;
+    text-align: center;
+    margin: 8% 8%;
+    padding: 3%;
+}
+div.employee-box a i:hover
+{
+    color: #ff2600;
+
+}
+#team img.team-imgs
+{
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    width: 120px;
+    height: 120px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid #ff2600;
+    
+}
+
+
+#contact-div
+{ position: relative; }
+#contact-div .contact-box
+{
+    width: 300%;
+    /* height: 250%; */
+    padding: 5%;
+    margin: 5%;
+    background-color: #27303a;
+    /* position: absolute;
+        top: 200px;
+        left: 60px; */
+    
+}
+#contact-div .contact-box h1
+{
+    margin: 5% 0 3% 50%;
+    white-space: pre-line;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#contact-div .contact-box p
+{    
+    white-space: pre-line;
+    margin: 3% 0 2% 50%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact-div .contact-box .btn
+{    
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    padding: 1% 3% 1% 3%;
+    margin: 1% 0 5% 50%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact-div .contact-box .btn:hover
+{
+    background-color: #fff;
+    color: #27303a;
+}
+#contact-div div.box-border
+{
+    width: 100%;
+    height: 70%;
+    border: 2px solid #8494a5;
+    margin-bottom: 10%;
+    position: relative;
+        bottom: 470px;
+        left: 50px;
+}
+#contact-div img
+{
+    width: 100%;
+    margin: 15%;
+    position: absolute;
+        top: 50px;
+        left: 50px;
+    margin-bottom: 5%;
+}
+
+
+footer
+{
+    width: 100%;
+    height: 100%;
+    color: #cecece;
+    background-color: #27303a;
+    margin-top: 10%;
+    padding: 5%;
+    clear: both;
+}
+#compeny-info
+{
+    width: 50%;
+    float: left;
+}
+
+footer h1
+{
+    color: #fff;
+    margin: 20% 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer table
+{
+    margin: 5%;
+    font-size: 20px;
+}
+footer table td
+{ 
+    text-align: center; 
+    padding: 5%;
+}
+footer table td a
+{
+    color: #faebe9;
+    text-decoration: underline;
+}
+footer table td a:hover
+{ color: #199fec; }
+
+footer .foot-links
+{
+    border-top: 1px solid #41474b;
+    text-align: center; 
+    margin-right: 5%;
+
+}
+footer .foot-links a i
+{
+    text-align: center;
+
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 10%;
+    padding: 8px 15px;
+    color: #fd8a75;
+    font-size: 20px;
+}
+footer .foot-links a i:hover
+{ color: #fff; }
+
+form *
+{color: #fff; }
+
+#form
+{
+    padding: 5%;
+    float: right;
+    background-color: #ec5136;
+}
+#form label
+{
+    color: #27303a;
+    display: block;
+}
+#form input ,textarea
+{
+    padding: 2%;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+#form input,textarea:focus
+{ outline: none; }
+
+#form .btn
+{
+    background-color: #fff;
+    color: #27303a;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 3%;
+}
+#form .btn:hover
+{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#foot .copy
+{    
+    padding: 2%;
+    color: #d3cccc;
+    font-size: 17px;
+    text-align: center;
+    background-color: #27303a;
+}
+
+
+
+
+
+            /* ! Media Queries */
+        
+@media only screen and (min-width: 320px)
+                   and (max-width: 767px)
+{
+    header{ display: none;}
+
+    header nav ul li{ font-size: 16px;}
+    
+    #main-part h1
+    {
+        font-size: 30px;
+
+    }
+    p.small-pre{
+        font-size: 10px;         
+    
+    }
+    #main-part{ width: 100%; }
+    #main-part button {  margin: 5%  0 -1% 0; }
+    #main-part .btn
+    {
+        display: block;
+        font-size: 12px;
+        width: 40%;
+    }
+    .img-responsive
+    {
+        width: 100%;
+        margin-left: 50%;
+    }
+
+    #clients-part { 
+        width: 100%;
+        margin-top: 2%; 
+        padding: 5%;
+    }
+
+    #clients-part h1 { font-size: 20px; }
+    #clients-container img.clients-pic{ margin-top: 10%; }
+    #project-part h1 
+    { 
+        font-size: 30px; 
+        margin-top: 20%;
+    } 
+    #project-1{  width: 100%; }
+    #project-1 h2 {  padding: 5%; }
+    #project-1 ul li i{ font-size: 14px; }
+
+    #color-box { margin: 5%; }
+    #color-box div.transperant-box{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+        top: 130px;
+        left: 150px;
+
+    }
+    #color-box div.transperant-box h2
+    {
+        font-size: 18px;
+    }
+    #color-box div.transperant-box p
+    { font-size: 18px; }
+    #color-box div.transperant-box a i
+    { font-size: 18px;  }
+
+
+
+    #contact-div
+    { width: 100%; }
+    #contact-div .contact-box 
+    { 
+        width: 100%;
+        height: auto;
+    }
+    #contact-div .contact-box h1
+    { 
+        font-size: 24px;
+        margin: 15%;
+    }
+    #contact-div .contact-box p
+    { 
+        font-size: 14px; 
+        white-space: pre-line;
+        margin: 10%;
+    }
+    #contact-div .contact-box .btn
+    { margin: 5%; }
+    #contact-div div.box-border
+    { 
+        /* position: relative;
+            top: 50px;
+            left: 20px; */
+        display: none;
+    }
+    #contact-div img
+    { display: none; }
+
+    #team
+    { margin-top: 20%; overflow: hidden;}
+    #team div.employee-box
+    {
+        width: auto;
+        margin: 25% 0 0 5%;
+    }
+    footer
+    {
+        padding: 5%;
+        width: 100%;
+        font-size: 16px;
+    }
+    footer h1
+    { 
+        font-size: 30px; 
+        margin-bottom: 3%;
+    }
+    footer table tr
+    {  font-size: 16px; }
+    footer table td a
+    { font-size: 14px;  }
+    footer .foot-links 
+    {
+        margin: 25px -15px;
+    }
+    footer .foot-links a i
+    { font-size: 14px;  margin: 8% 5%; padding: 5%;}
+    #compeny-info,#form
+    {
+        clear: both; 
+        display: block; 
+    }
+    #form
+    { padding: 10%; }
+}
